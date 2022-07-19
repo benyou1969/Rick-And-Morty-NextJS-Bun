@@ -22,7 +22,7 @@ const Home: NextPage<InferGetServerSidePropsType<typeof getServerSideProps>> = (
   const [currentPage, setCurrentPage] = useState(1);
   const [meta, setMeta] = useState(data.info);
   const [hasMore, setHasMore] = useState(false);
-  
+
   const fetchMoreData = async () => {
     setCurrentPage(currentPage + 1);
     const data = await fetchData(currentPage + 1)
@@ -44,6 +44,7 @@ const Home: NextPage<InferGetServerSidePropsType<typeof getServerSideProps>> = (
           <InfiniteScroll
             loader={
               <div className={styles.gridContainer}>
+                <CharacterCardSkeleton />
                 <CharacterCardSkeleton />
                 <CharacterCardSkeleton />
               </div>
