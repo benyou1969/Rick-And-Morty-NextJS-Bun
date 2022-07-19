@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with Bun.
 ### Cloning the repo
 
 ```sh
-bun create next ./app
+bun install
 ```
 
 First, run the development server:
