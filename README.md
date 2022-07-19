@@ -1,6 +1,9 @@
 # Next.js with Bun runtime
 
 
+
+![updated](https://user-images.githubusercontent.com/31636863/179841018-aa51200d-930e-42b1-bb97-daca57a00506.gif)
+
 ## Getting Started
 
 ### Cloning the repo
